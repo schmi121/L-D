@@ -33,6 +33,7 @@ h1 {
 }
 body {
     width: 100%;
+    margin: 0;
 }
 .table6 {
     border: 3px solid black;
@@ -88,18 +89,6 @@ img {
 .workexperience {
     margin-top: -100px;
     padding-top: 100px;
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: repeat(9, 1fr);
-}
-.palead {
-    grid-area: 1 / 1 / span 3 / 1;
-}
-.plspec {
-    grid-area: 4 / 1 / span 3 / 1;
-}
-.adprof {
-    grid-area: 7 / 1 / span 3 / 1;
 }
 .table2 {
     margin-bottom: 0px;
@@ -107,9 +96,10 @@ img {
 .footer {
     display: block;
     width: 100%;
-    position: relative;
+    position: initial;
     background-color: darkslategray;
     padding: 20px;
+    margin: auto;
 }
 .contact a {
     display: block;
@@ -146,4 +136,8 @@ img {
 }
 hr {
     border: 1px solid darkslategray;
+}
+.linkimg {
+   height: 20vw;
+   width: 20vw;
 }
